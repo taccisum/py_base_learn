@@ -24,7 +24,7 @@ print '# 带参数的装饰器'
 print '定义一个带参数的装饰器'
 def log_with_args(text):
     def inner_decorator(func):
-        def wrapper(*args, **kw):
+        def wrapper(  *args, **kw):
             print '%s %s(), args: %s' % (text, func.__name__, args)
             return func(*args, **kw)
         return wrapper
