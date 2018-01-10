@@ -1,6 +1,6 @@
 #coding=utf-8
 
-import pkg.talker as talker 
+import pkg 
 
-talker.greeting()
+pkg.greeting()
 

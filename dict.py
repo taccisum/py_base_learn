@@ -18,5 +18,3 @@ print _dict.get('hhh', 23)
 print '删除一个键值对'
 _dict.pop('anit')
 print _dict
-
-
